@@ -1,0 +1,106 @@
+/* src/components/SignupFormPatient.css */
+
+/* Body style for a full-page background gradient */
+body {
+  background: linear-gradient(120deg, #74ebd5 0%, #acb6e5 100%);
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Fancy signup form container */
+.fancy-signup-container {
+  max-width: 650px; /* Reduced max width */
+  margin: 40px auto; /* Reduced margin for a smaller form */
+  padding: 20px; /* Reduced padding inside the container */
+  background: white;
+  border-radius: 10px; /* Reduced border radius */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Lighter shadow */
+  border: 1px solid #74ebd5;
+}
+
+/* Title styling */
+.fancy-signup-title {
+  text-align: center;
+  font-size: 24px; /* Smaller font size */
+  color: #4a4a4a;
+  margin-bottom: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+/* Form styling */
+.fancy-signup-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  margin-bottom: 15px; /* Reduced margin between inputs */
+}
+
+.form-group label {
+  font-size: 12px; /* Smaller label font */
+  font-weight: 600;
+  color: #555;
+  margin-bottom: 6px;
+  display: block;
+}
+
+/* Input fields styling */
+.form-group input,
+.form-group select,
+.form-group textarea {
+  width: 100%;
+  padding: 8px; /* Smaller padding */
+  border: 1px solid #ddd;
+  border-radius: 6px; /* Reduced border radius */
+  font-size: 14px; /* Reduced input font size */
+  background-color: #f9f9f9;
+  transition: box-shadow 0.3s, border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+  box-shadow: 0 0 8px rgba(0, 123, 255, 0.2); /* Slightly smaller shadow */
+  border-color: #007bff;
+}
+
+textarea {
+  resize: none;
+  height: 80px; /* Smaller textarea height */
+}
+
+/* Fancy button styling */
+.fancy-signup-btn {
+  padding: 10px; /* Reduced padding */
+  background: linear-gradient(120deg, #74ebd5, #acb6e5);
+  border: none;
+  border-radius: 40px; /* Adjusted for a smaller form */
+  font-size: 16px; /* Reduced button font size */
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.3s;
+}
+
+.fancy-signup-btn:hover {
+  background: linear-gradient(120deg, #acb6e5, #74ebd5);
+  transform: translateY(-2px);
+}
+
+/* Media queries for responsiveness */
+@media (max-width: 600px) {
+  .fancy-signup-container {
+    padding: 15px; /* Further reduced padding for mobile */
+  }
+
+  .fancy-signup-title {
+    font-size: 20px; /* Smaller font for mobile */
+  }
+
+  .fancy-signup-btn {
+    font-size: 14px; /* Smaller button font for mobile */
+  }
+}

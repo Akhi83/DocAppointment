@@ -1,0 +1,20 @@
+.signup-container {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  
+  .user-type-selection {
+    margin-bottom: 20px;
+  }
+  
+  .user-type-selection label {
+    margin: 0 20px;
+    font-size: 18px;
+    cursor: pointer;
+  }
+  
+  .form-container {
+    margin-top: 20px;
+  }
+  
